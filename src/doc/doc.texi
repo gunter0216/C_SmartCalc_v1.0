@@ -1,0 +1,68 @@
+\input texinfo
+@setfilename test.info
+@documentencoding UTF-8
+
+@settitle Calculator
+
+@titlepage
+@title Calculator
+@author D. Hammer
+
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@headings off
+
+@contents
+
+@menu
+* Arithmetic operations::                
+* Functions::              
+@end menu
+
+@node Functions
+@chapter Functions
+
+@cindex intro
+
+cos(x)
+
+sin(x)
+
+tan(x)
+
+acos(x)
+
+asin(x)
+
+atan(x)
+
+sqrt(x)
+
+ln(x)
+
+log(x)
+
+@node Arithmetic operations
+@chapter Arithmetic operations
+
+Parentheses      (a + b)
+
+Plus    a + b
+
+Minus   a - b
+
+Mul   a * b
+
+Div     a / b
+
+Pow    a ^ b
+
+Mod  a mod b
+
+Unary plus    +a
+
+Unary minus   -a
+
+@bye
